@@ -1,4 +1,4 @@
-import { PrismaClient } from "./generated/prisma/client"
+import { PrismaClient } from "../prisma/node_modules/.prisma/client"
 import fastify from "fastify"
 import { z } from "zod"
 
